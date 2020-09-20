@@ -4,5 +4,7 @@ class Anagram
   attr_accessor :word
   
   def initialize(word)
-    @csv_emails = csv_emails
+    @word = word
   end 
+  
+  
